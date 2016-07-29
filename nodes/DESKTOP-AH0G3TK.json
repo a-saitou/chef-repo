@@ -1,0 +1,1786 @@
+{
+  "name": "DESKTOP-AH0G3TK",
+  "normal": {
+    "tags": [
+
+    ]
+  },
+  "default": {
+    "chef_handler": {
+      "handler_path": "c:/chef-repo/handlers"
+    },
+    "windows": {
+      "allow_pending_reboots": true,
+      "allow_reboot_on_failure": false,
+      "rubyzipversion": null,
+      "reboot_timeout": 60
+    }
+  },
+  "automatic": {
+    "cpu": {
+      "0": {
+        "cores": 4,
+        "vendor_id": "GenuineIntel",
+        "family": "1",
+        "model": "5898",
+        "stepping": "10",
+        "physical_id": "CPU0",
+        "model_name": "Intel64 Family 6 Model 23 Stepping 10",
+        "mhz": "2670",
+        "cache_size": "6144 KB"
+      },
+      "total": 4,
+      "cores": 4,
+      "real": 1
+    },
+    "filesystem": {
+      "C:": {
+        "kb_size": 479994048,
+        "kb_available": 273429454,
+        "kb_used": 206564594,
+        "percent_used": 43,
+        "mount": "C:",
+        "fs_type": "ntfs",
+        "volume_name": ""
+      },
+      "D:": {
+        "kb_size": 0,
+        "kb_available": 0,
+        "kb_used": 0,
+        "percent_used": 0,
+        "mount": "D:",
+        "volume_name": null
+      },
+      "E:": {
+        "kb_size": 0,
+        "kb_available": 0,
+        "kb_used": 0,
+        "percent_used": 0,
+        "mount": "E:",
+        "volume_name": null
+      },
+      "F:": {
+        "kb_size": 0,
+        "kb_available": 0,
+        "kb_used": 0,
+        "percent_used": 0,
+        "mount": "F:",
+        "volume_name": null
+      },
+      "G:": {
+        "kb_size": 0,
+        "kb_available": 0,
+        "kb_used": 0,
+        "percent_used": 0,
+        "mount": "G:",
+        "volume_name": null
+      },
+      "H:": {
+        "kb_size": 3769827,
+        "kb_available": 3769827,
+        "kb_used": 0,
+        "percent_used": 0,
+        "mount": "H:",
+        "fs_type": "udf",
+        "volume_name": "DVD_VIDEO_RECORDER"
+      },
+      "I:": {
+        "kb_size": 467871461,
+        "kb_available": 427769266,
+        "kb_used": 40102195,
+        "percent_used": 8,
+        "mount": "I:",
+        "fs_type": "ntfs",
+        "volume_name": "�{�����[��"
+      },
+      "K:": {
+        "kb_size": 0,
+        "kb_available": 0,
+        "kb_used": 0,
+        "percent_used": 0,
+        "mount": "K:",
+        "volume_name": null
+      }
+    },
+    "kernel": {
+      "os_info": {
+        "boot_device": "\\Device\\HarddiskVolume1",
+        "build_number": "10586",
+        "build_type": "Multiprocessor Free",
+        "caption": "Microsoft Windows 10 Pro",
+        "code_set": "932",
+        "country_code": "81",
+        "creation_class_name": "Win32_OperatingSystem",
+        "cs_creation_class_name": "Win32_ComputerSystem",
+        "csd_version": null,
+        "cs_name": "DESKTOP-AH0G3TK",
+        "current_time_zone": 540,
+        "data_execution_prevention_32_bit_applications": true,
+        "data_execution_prevention_available": true,
+        "data_execution_prevention_drivers": true,
+        "data_execution_prevention_support_policy": 2,
+        "debug": false,
+        "description": "",
+        "distributed": false,
+        "encryption_level": 256,
+        "foreground_application_boost": 2,
+        "free_physical_memory": "1619176",
+        "free_space_in_paging_files": "10874476",
+        "free_virtual_memory": "2878904",
+        "install_date": "20160423195557.000000+540",
+        "large_system_cache": null,
+        "last_boot_up_time": "20160726225310.495397+540",
+        "local_date_time": "20160729191515.066000+540",
+        "locale": "0411",
+        "manufacturer": "Microsoft Corporation",
+        "max_number_of_processes": -1,
+        "max_process_memory_size": "137438953344",
+        "mui_languages": [
+          "ja-JP"
+        ],
+        "name": "Microsoft Windows 10 Pro|C:\\Windows|\\Device\\Harddisk0\\Partition2",
+        "number_of_licensed_users": 0,
+        "number_of_processes": 139,
+        "number_of_users": 2,
+        "operating_system_sku": 48,
+        "organization": "",
+        "os_architecture": "64 ビット",
+        "os_language": 1041,
+        "os_product_suite": 256,
+        "os_type": 18,
+        "other_type_description": null,
+        "pae_enabled": null,
+        "plus_product_id": null,
+        "plus_version_number": null,
+        "portable_operating_system": false,
+        "primary": true,
+        "product_type": 1,
+        "registered_user": "a-saitou@sirius.ocn.ne.jp",
+        "serial_number": "00330-80000-00000-AA487",
+        "service_pack_major_version": 0,
+        "service_pack_minor_version": 0,
+        "size_stored_in_paging_files": "11128536",
+        "status": "OK",
+        "suite_mask": 272,
+        "system_device": "\\Device\\HarddiskVolume2",
+        "system_directory": "C:\\Windows\\system32",
+        "system_drive": "C:",
+        "total_swap_space_size": null,
+        "total_virtual_memory_size": "19516300",
+        "total_visible_memory_size": "8387764",
+        "version": "10.0.10586",
+        "windows_directory": "C:\\Windows"
+      },
+      "name": "Microsoft Windows 10 Pro",
+      "release": "10.0.10586",
+      "version": "10.0.10586  Build 10586",
+      "os": "WINNT",
+      "cs_info": {
+        "admin_password_status": 3,
+        "automatic_managed_pagefile": true,
+        "automatic_reset_boot_option": true,
+        "automatic_reset_capability": true,
+        "boot_option_on_limit": null,
+        "boot_option_on_watch_dog": null,
+        "boot_rom_supported": true,
+        "boot_status": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "bootup_state": "Normal boot",
+        "caption": "DESKTOP-AH0G3TK",
+        "chassis_bootup_state": 3,
+        "chassis_sku_number": null,
+        "creation_class_name": "Win32_ComputerSystem",
+        "current_time_zone": 540,
+        "daylight_in_effect": null,
+        "description": "AT/AT COMPATIBLE",
+        "dns_host_name": "DESKTOP-AH0G3TK",
+        "domain": "WORKGROUP",
+        "domain_role": 0,
+        "enable_daylight_savings_time": true,
+        "front_panel_reset_status": 3,
+        "hypervisor_present": false,
+        "infrared_supported": false,
+        "initial_load_info": null,
+        "install_date": null,
+        "keyboard_password_status": 3,
+        "last_load_info": null,
+        "manufacturer": "Dell Inc.",
+        "model": "Studio 540      ",
+        "name": "DESKTOP-AH0G3TK",
+        "name_format": null,
+        "network_server_mode_enabled": true,
+        "number_of_logical_processors": 4,
+        "number_of_processors": 1,
+        "oem_string_array": [
+          "www.dell.com"
+        ],
+        "part_of_domain": false,
+        "pause_after_reset": "-1",
+        "pc_system_type": 1,
+        "pc_system_type_ex": 1,
+        "power_management_capabilities": null,
+        "power_management_supported": null,
+        "power_on_password_status": 3,
+        "power_state": 0,
+        "power_supply_state": 3,
+        "primary_owner_contact": null,
+        "primary_owner_name": "a-saitou@sirius.ocn.ne.jp",
+        "reset_capability": 1,
+        "reset_count": -1,
+        "reset_limit": -1,
+        "roles": [
+          "LM_Workstation",
+          "LM_Server",
+          "SQLServer",
+          "NT",
+          "Potential_Browser",
+          "Master_Browser"
+        ],
+        "status": "OK",
+        "support_contact_description": null,
+        "system_family": "                                ",
+        "system_sku_number": "                                ",
+        "system_startup_delay": null,
+        "system_startup_options": null,
+        "system_startup_setting": null,
+        "system_type": "x64-based PC",
+        "thermal_state": 3,
+        "total_physical_memory": "8589070336",
+        "user_name": "DESKTOP-AH0G3TK\\a-sai",
+        "wake_up_type": 6,
+        "workgroup": "WORKGROUP"
+      },
+      "machine": "x86_64"
+    },
+    "memory": {
+      "swap": {
+        "total": "11128536kB",
+        "free": "10874476kB"
+      },
+      "total": "8387764kB",
+      "free": "1618444kB"
+    },
+    "network": {
+      "interfaces": {
+        "0x2": {
+          "configuration": {
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000000] Realtek PCIe GBE Family Controller",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": [
+              "192.168.0.1",
+              "fe80::226:99ff:fe84:13c5"
+            ],
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "Realtek PCIe GBE Family Controller",
+            "dhcp_enabled": true,
+            "dhcp_lease_expires": "20160731045503.000000+540",
+            "dhcp_lease_obtained": "20160729045503.000000+540",
+            "dhcp_server": "192.168.0.1",
+            "dns_domain": null,
+            "dns_domain_suffix_search_order": [
+
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "DESKTOP-AH0G3TK",
+            "dns_server_search_order": [
+              "192.168.0.1"
+            ],
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": [
+              0,
+              256
+            ],
+            "igmp_level": null,
+            "index": 0,
+            "interface_index": 2,
+            "ip_address": [
+              "192.168.0.8",
+              "fe80::44e3:a683:8de8:b3ba",
+              "2001:a453:404d:c800:d814:c7ef:1f60:ca46",
+              "2001:a453:404d:c800:5149:e86:f01c:423",
+              "2001:a453:404d:c800:4948:1770:2b76:8fd6",
+              "2001:a453:404d:c800:44e3:a683:8de8:b3ba"
+            ],
+            "ip_connection_metric": 20,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.255.0",
+              "64",
+              "128",
+              "128",
+              "128",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "00:21:70:5D:2F:8D",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "rt640x64",
+            "setting_id": "{09837CCE-163A-4ABF-B1D6-D021E25C1EE1}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "イーサネット 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000000] Realtek PCIe GBE Family Controller",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "Realtek PCIe GBE Family Controller",
+            "device_id": "0",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{09837CCE-163A-4ABF-B1D6-D021E25C1EE1}",
+            "index": 0,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 2,
+            "last_error_code": null,
+            "mac_address": "00:21:70:5D:2F:8D",
+            "manufacturer": "Realtek",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "Realtek PCIe GBE Family Controller",
+            "net_connection_id": "イーサネット",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "PCI\\VEN_10EC&DEV_8168&SUBSYS_02AC1028&REV_02\\00E04C680000000300",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "Realtek PCIe GBE Family Controller",
+            "service_name": "rt640x64",
+            "speed": "100000000",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "DESKTOP-AH0G3TK",
+            "time_of_last_reset": "20160726225310.495397+540"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "192.168.0.8": {
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "192.168.0.255",
+              "family": "inet"
+            },
+            "fe80::44e3:a683:8de8:b3ba": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "2001:a453:404d:c800:d814:c7ef:1f60:ca46": {
+              "prefixlen": "128",
+              "family": "inet6"
+            },
+            "2001:a453:404d:c800:5149:e86:f01c:423": {
+              "prefixlen": "128",
+              "family": "inet6"
+            },
+            "2001:a453:404d:c800:4948:1770:2b76:8fd6": {
+              "prefixlen": "128",
+              "family": "inet6"
+            },
+            "2001:a453:404d:c800:44e3:a683:8de8:b3ba": {
+              "prefixlen": "64",
+              "family": "inet6"
+            },
+            "00:21:70:5D:2F:8D": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "イーサネット 802.3",
+          "arp": {
+
+          },
+          "encapsulation": "イーサネット 802.3"
+        },
+        "0x4": {
+          "configuration": {
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000004] VirtualBox Host-Only Ethernet Adapter",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": null,
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "VirtualBox Host-Only Ethernet Adapter",
+            "dhcp_enabled": true,
+            "dhcp_lease_expires": null,
+            "dhcp_lease_obtained": null,
+            "dhcp_server": "255.255.255.255",
+            "dns_domain": null,
+            "dns_domain_suffix_search_order": [
+
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "DESKTOP-AH0G3TK",
+            "dns_server_search_order": null,
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": null,
+            "igmp_level": null,
+            "index": 4,
+            "interface_index": 4,
+            "ip_address": [
+              "192.168.56.1",
+              "fe80::8cf2:5efb:3001:9d6d"
+            ],
+            "ip_connection_metric": 10,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.255.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "0A:00:27:00:00:04",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "VBoxNetAdp",
+            "setting_id": "{15ED11CE-1230-438E-B955-3745B7CC18B7}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "イーサネット 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000004] VirtualBox Host-Only Ethernet Adapter",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "VirtualBox Host-Only Ethernet Adapter",
+            "device_id": "4",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{15ED11CE-1230-438E-B955-3745B7CC18B7}",
+            "index": 4,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 4,
+            "last_error_code": null,
+            "mac_address": "0A:00:27:00:00:04",
+            "manufacturer": "Oracle Corporation",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "VirtualBox Host-Only Ethernet Adapter",
+            "net_connection_id": "イーサネット 3",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "ROOT\\NET\\0001",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "VirtualBox Host-Only Ethernet Adapter",
+            "service_name": "VBoxNetAdp",
+            "speed": "1000000000",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "DESKTOP-AH0G3TK",
+            "time_of_last_reset": "20160726225310.495397+540"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "192.168.56.1": {
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "192.168.56.255",
+              "family": "inet"
+            },
+            "fe80::8cf2:5efb:3001:9d6d": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "0A:00:27:00:00:04": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "イーサネット 802.3",
+          "arp": {
+
+          },
+          "encapsulation": "イーサネット 802.3"
+        },
+        "0x6": {
+          "configuration": {
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000005] VirtualBox Host-Only Ethernet Adapter",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": null,
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "VirtualBox Host-Only Ethernet Adapter #2",
+            "dhcp_enabled": true,
+            "dhcp_lease_expires": null,
+            "dhcp_lease_obtained": null,
+            "dhcp_server": "255.255.255.255",
+            "dns_domain": null,
+            "dns_domain_suffix_search_order": [
+
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "DESKTOP-AH0G3TK",
+            "dns_server_search_order": null,
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": null,
+            "igmp_level": null,
+            "index": 5,
+            "interface_index": 6,
+            "ip_address": [
+              "169.254.207.51",
+              "fe80::7087:e985:3bf9:cf33"
+            ],
+            "ip_connection_metric": 10,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.0.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "0A:00:27:00:00:06",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "VBoxNetAdp",
+            "setting_id": "{40C6D770-3E6C-4A8A-8D9E-0764D597DB78}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "イーサネット 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000005] VirtualBox Host-Only Ethernet Adapter",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "VirtualBox Host-Only Ethernet Adapter",
+            "device_id": "5",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{40C6D770-3E6C-4A8A-8D9E-0764D597DB78}",
+            "index": 5,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 6,
+            "last_error_code": null,
+            "mac_address": "0A:00:27:00:00:06",
+            "manufacturer": "Oracle Corporation",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "VirtualBox Host-Only Ethernet Adapter #2",
+            "net_connection_id": "イーサネット 4",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "ROOT\\NET\\0002",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "VirtualBox Host-Only Ethernet Adapter",
+            "service_name": "VBoxNetAdp",
+            "speed": "1000000000",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "DESKTOP-AH0G3TK",
+            "time_of_last_reset": "20160726225310.495397+540"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "169.254.207.51": {
+              "prefixlen": "16",
+              "netmask": "255.255.0.0",
+              "broadcast": "169.254.255.255",
+              "family": "inet"
+            },
+            "fe80::7087:e985:3bf9:cf33": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "0A:00:27:00:00:06": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "イーサネット 802.3",
+          "arp": {
+
+          },
+          "encapsulation": "イーサネット 802.3"
+        },
+        "0x5": {
+          "configuration": {
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000006] VirtualBox Host-Only Ethernet Adapter",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": null,
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "VirtualBox Host-Only Ethernet Adapter #3",
+            "dhcp_enabled": true,
+            "dhcp_lease_expires": null,
+            "dhcp_lease_obtained": null,
+            "dhcp_server": "255.255.255.255",
+            "dns_domain": null,
+            "dns_domain_suffix_search_order": [
+
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "DESKTOP-AH0G3TK",
+            "dns_server_search_order": null,
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": null,
+            "igmp_level": null,
+            "index": 6,
+            "interface_index": 5,
+            "ip_address": [
+              "169.254.157.173",
+              "fe80::80fd:fd19:15c0:9dad"
+            ],
+            "ip_connection_metric": 10,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.0.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "0A:00:27:00:00:05",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "VBoxNetAdp",
+            "setting_id": "{1D48A88F-E9F4-454D-8B8E-040353A2E4D7}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "イーサネット 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000006] VirtualBox Host-Only Ethernet Adapter",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "VirtualBox Host-Only Ethernet Adapter",
+            "device_id": "6",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{1D48A88F-E9F4-454D-8B8E-040353A2E4D7}",
+            "index": 6,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 5,
+            "last_error_code": null,
+            "mac_address": "0A:00:27:00:00:05",
+            "manufacturer": "Oracle Corporation",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "VirtualBox Host-Only Ethernet Adapter #3",
+            "net_connection_id": "イーサネット 5",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "ROOT\\NET\\0003",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "VirtualBox Host-Only Ethernet Adapter",
+            "service_name": "VBoxNetAdp",
+            "speed": "1000000000",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "DESKTOP-AH0G3TK",
+            "time_of_last_reset": "20160726225310.495397+540"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "169.254.157.173": {
+              "prefixlen": "16",
+              "netmask": "255.255.0.0",
+              "broadcast": "169.254.255.255",
+              "family": "inet"
+            },
+            "fe80::80fd:fd19:15c0:9dad": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "0A:00:27:00:00:05": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "イーサネット 802.3",
+          "arp": {
+
+          },
+          "encapsulation": "イーサネット 802.3"
+        }
+      },
+      "default_gateway": "192.168.0.1",
+      "default_interface": "0x2"
+    },
+    "counters": {
+      "network": {
+
+      }
+    },
+    "ipaddress": "192.168.0.8",
+    "macaddress": "00:21:70:5D:2F:8D",
+    "ip6address": "fe80::44e3:a683:8de8:b3ba",
+    "os": "windows",
+    "os_version": "10.0.10586",
+    "platform": "windows",
+    "platform_version": "10.0.10586",
+    "platform_family": "windows",
+    "uptime_seconds": 246135,
+    "uptime": "2 days 20 hours 22 minutes 15 seconds",
+    "virtualization": {
+      "systems": {
+
+      }
+    },
+    "languages": {
+      "java": {
+        "version": "1.8.0_101",
+        "runtime": {
+          "name": "Java(TM) SE Runtime Environment",
+          "build": "1.8.0_101-b13"
+        },
+        "hotspot": {
+          "name": "Java HotSpot(TM) Client VM",
+          "build": "25.101-b13, mixed mode, sharing"
+        }
+      },
+      "perl": {
+        "version": "5.8.8",
+        "archname": "msys-64int"
+      },
+      "powershell": {
+        "version": "5.0.10586.494",
+        "ws_man_stack_version": "3.0",
+        "serialization_version": "1.1.0.1",
+        "clr_version": "4.0.30319.42000",
+        "build_version": "10.0.10586.494",
+        "compatible_versions": [
+          "1.0",
+          "2.0",
+          "3.0",
+          "4.0",
+          "5.0.10586.494"
+        ],
+        "remoting_protocol_version": "2.3"
+      },
+      "ruby": {
+        "platform": "x64-mingw32",
+        "version": "2.3.0",
+        "release_date": "2015-12-25",
+        "target": "x86_64-w64-mingw32",
+        "target_cpu": "x64",
+        "target_vendor": "w64",
+        "target_os": "mingw32",
+        "host": "x86_64-w64-mingw32",
+        "host_cpu": "x86_64",
+        "host_os": "mingw32",
+        "host_vendor": "w64",
+        "bin_dir": "C:/Ruby23-x64/bin",
+        "ruby_bin": "C:/Ruby23-x64/bin/ruby",
+        "gems_dir": "C:/Ruby23-x64/lib/ruby/gems/2.3.0",
+        "gem_bin": "C:/Ruby23-x64/bin/gem"
+      }
+    },
+    "chef_packages": {
+      "chef": {
+        "version": "12.12.15",
+        "chef_root": "C:/opscode/chef/embedded/lib/ruby/gems/2.1.0/gems/chef-12.12.15-universal-mingw32/lib"
+      },
+      "ohai": {
+        "version": "8.17.1",
+        "ohai_root": "C:/opscode/chef/embedded/lib/ruby/gems/2.1.0/gems/ohai-8.17.1/lib/ohai"
+      }
+    },
+    "dmi": {
+
+    },
+    "cloud_v2": null,
+    "command": {
+
+    },
+    "hostname": "DESKTOP-AH0G3TK",
+    "machinename": "DESKTOP-AH0G3TK",
+    "fqdn": "DESKTOP-AH0G3TK",
+    "domain": null,
+    "keys": {
+      "ssh": {
+
+      }
+    },
+    "fips": {
+      "kernel": {
+        "enabled": false
+      }
+    },
+    "ohai_time": 1469787342.8083231,
+    "packages": {
+      "Windows ドライバ パッケージ - I-O DATA DEVICE, INC. GV-MVP/XS(x64) (12/04/2012 1.8.3.38)": {
+        "version": "12/04/2012 1.8.3.38",
+        "publisher": "I-O DATA DEVICE, INC."
+      },
+      "Windows ドライバ パッケージ - I-O DATA DEVICE, INC. GV-TRC/USB(x64) (06/21/2013 1.9.2.33)": {
+        "version": "06/21/2013 1.9.2.33",
+        "publisher": "I-O DATA DEVICE, INC."
+      },
+      "Everything 1.3.4.686 (x64)": {
+
+      },
+      "秀丸エディタ64 (8.58)": {
+        "version": "8.58",
+        "publisher": "有限会社サイトー企画"
+      },
+      "SQL Server 2008 R2 の Service Pack 2 (KB2630458) (64-bit)": {
+        "version": "10.52.4000.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160423"
+      },
+      "SQL Server 2008 R2 の GDR 4042 (KB3045313) (64-bit)": {
+        "version": "10.52.4042.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160426"
+      },
+      "McAfee Security Scan Plus": {
+        "version": "3.11.334.1",
+        "publisher": "McAfee, Inc."
+      },
+      "Microsoft SQL Server 2008 R2 (64-bit)": {
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft Visual Studio 2010 Tools for Office Runtime (x64)": {
+        "version": "10.0.50908",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160426"
+      },
+      "Microsoft Visual Studio 2010 Tools for Office Runtime (x64) Language Pack - 日本語": {
+        "version": "10.0.50903",
+        "publisher": "Microsoft Corporation"
+      },
+      "Sublime Text Build 3103": {
+        "publisher": "Sublime HQ Pty Ltd",
+        "installdate": "20160424"
+      },
+      "Intel Security True Key": {
+        "version": "4.4.129.1",
+        "publisher": "Intel Security"
+      },
+      "MySQL Workbench 6.3 CE": {
+        "version": "6.3.7",
+        "publisher": "Oracle Corporation",
+        "installdate": "20160717"
+      },
+      "Microsoft SQL Server 2008 セットアップ サポート ファイル": {
+        "version": "10.1.2731.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160423"
+      },
+      "CanoScan 9000F Mark II Scanner Driver": {
+        "publisher": "Canon Inc."
+      },
+      "Microsoft SQL Server 2008 R2 RsFx Driver": {
+        "version": "10.52.4042.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160426"
+      },
+      "ドキュメントトーカ辞書アップデート(X64)": {
+        "version": "1.0.0",
+        "publisher": "クリエートシステム開発株式会社",
+        "installdate": "20160424"
+      },
+      "Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219": {
+        "version": "10.0.40219",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160426"
+      },
+      "Oracle VM VirtualBox 5.0.26": {
+        "version": "5.0.26",
+        "publisher": "Oracle Corporation",
+        "installdate": "20160727"
+      },
+      "SQL Server 2008 R2 SP2 Common Files": {
+        "version": "10.52.4000.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160423"
+      },
+      "Intel® RealSense™ SDK 2014 Runtime  (x64): Core": {
+        "version": "3.1.0.25181",
+        "publisher": "Intel Corporation",
+        "installdate": "20160713"
+      },
+      "SQL Server 2008 R2 SP2 Database Engine Shared": {
+        "version": "10.52.4000.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160426"
+      },
+      "Microsoft SQL Server 2008 R2 Native Client": {
+        "version": "10.52.4042.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160426"
+      },
+      "Microsoft SQL Server VSS Writer": {
+        "version": "10.52.4000.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160426"
+      },
+      "CubePDF 1.0.0RC8": {
+        "publisher": "CubeSoft",
+        "installdate": "20160715"
+      },
+      "Microsoft Office IME (Japanese) 2010": {
+        "version": "14.0.7015.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160427"
+      },
+      "Microsoft Office Office 64-bit Components 2010": {
+        "version": "14.0.7015.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160427"
+      },
+      "Microsoft Office Shared 64-bit MUI (Japanese) 2010": {
+        "version": "14.0.7015.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160426"
+      },
+      "Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160713"
+      },
+      "Microsoft Application Error Reporting": {
+        "version": "12.0.6015.5000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160423"
+      },
+      "PDF-Viewer": {
+        "version": "2.5.317.0",
+        "publisher": "Tracker Software Products Ltd",
+        "installdate": "20160511"
+      },
+      "Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160713"
+      },
+      "SQL Server 2008 R2 SP2 Database Engine Services": {
+        "version": "10.52.4000.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160426"
+      },
+      "Microsoft SQL Server 2008 R2 Setup (English)": {
+        "version": "10.52.4042.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160426"
+      },
+      "NVIDIA 3D Vision ドライバー 341.95": {
+        "version": "341.95",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20160423"
+      },
+      "NVIDIA コントロール パネル 341.95": {
+        "version": "341.95",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20160423"
+      },
+      "NVIDIA グラフィックス ドライバー 341.95": {
+        "version": "341.95",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20160423"
+      },
+      "NVIDIA Update 10.4.0": {
+        "version": "10.4.0",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20160423"
+      },
+      "NVIDIA HD オーディオ ドライバー 1.3.30.1": {
+        "version": "1.3.30.1",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20160423"
+      },
+      "NVIDIA Install Application": {
+        "version": "2.1002.172.1382",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20160423"
+      },
+      "NVIDIA Update Core": {
+        "version": "10.4.0",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20160423"
+      },
+      "Chef Client v12.12.15": {
+        "version": "12.12.15.1",
+        "publisher": "Chef Software, Inc.",
+        "installdate": "20160727"
+      },
+      "ドキュメントトーカ 日本語音声合成エンジン for Windows(x64)": {
+        "version": "1.2.12",
+        "publisher": "クリエートシステム開発株式会社",
+        "installdate": "20160424"
+      },
+      "Intel(R) Biometric and Context Agent": {
+        "version": "2.0.146.0",
+        "publisher": "Intel Corporation",
+        "installdate": "20160713"
+      },
+      "Intel(R) Biometric and Context Agent Redistributables": {
+        "version": "2.0.146.0",
+        "publisher": "Intel Corporation",
+        "installdate": "20160713"
+      },
+      "CubeWidget 2.3.0 (x64)": {
+        "version": "2.3.0",
+        "publisher": "CubeSoft",
+        "installdate": "20160715"
+      },
+      "Microsoft Visual Studio 2010 Tools for Office Runtime (x64) Language Pack - JPN": {
+        "version": "10.0.50903",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160426"
+      },
+      "Sql Server Customer Experience Improvement Program": {
+        "version": "10.50.1600.1",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160423"
+      },
+      "Adobe AIR": {
+        "version": "22.0.0.153",
+        "publisher": "Adobe Systems Incorporated",
+        "installdate": "20160721"
+      },
+      "Adobe Flash Player 22 NPAPI": {
+        "version": "22.0.0.209",
+        "publisher": "Adobe Systems Incorporated"
+      },
+      "Adobe Flash Player 22 PPAPI": {
+        "version": "22.0.0.209",
+        "publisher": "Adobe Systems Incorporated"
+      },
+      "Avast Premier": {
+        "version": "12.1.2272",
+        "publisher": "AVAST Software"
+      },
+      "CADWe'll CAPE2003": {
+
+      },
+      "Canon My Image Garden": {
+        "version": "3.5.0",
+        "publisher": "Canon Inc."
+      },
+      "Canon My Image Garden Design Files": {
+        "version": "3.5.0",
+        "publisher": "Canon Inc."
+      },
+      "Canon Quick Menu": {
+        "version": "2.7.0",
+        "publisher": "Canon Inc."
+      },
+      "Canon IJ Scan Utility": {
+        "publisher": "‪Canon Inc.‬"
+      },
+      "ラベル屋さん9": {
+        "version": "9.1.412",
+        "publisher": "A-one G.K.",
+        "installdate": "20160721"
+      },
+      "Dropbox": {
+        "version": "6.4.14",
+        "publisher": "Dropbox, Inc."
+      },
+      "DVDFab 9.3.0.5 (17/06/2016)": {
+        "publisher": "Fengtao Software Inc.",
+        "installdate": "20160626"
+      },
+      "FFFTP Ver.1.99a": {
+        "publisher": "FFFTP Project"
+      },
+      "Git version 2.8.0": {
+        "version": "2.8.0",
+        "publisher": "The Git Development Community",
+        "installdate": "20160720"
+      },
+      "Google Chrome": {
+        "version": "51.0.2704.103",
+        "publisher": "Google Inc.",
+        "installdate": "20160423"
+      },
+      "Heroku Toolbelt 3.43.5": {
+        "version": "3.43.5",
+        "publisher": "Heroku, Inc.",
+        "installdate": "20160720"
+      },
+      "NetEnum4": {
+        "installdate": "20160716"
+      },
+      "CyberLink Media Suite 10": {
+        "version": "10.0.0.2812",
+        "publisher": "CyberLink Corp.",
+        "installdate": "20160429"
+      },
+      "Corel AVControl v2.3.0.38": {
+        "version": "2.3.0.38",
+        "publisher": "Corel Corporation",
+        "installdate": "20160429"
+      },
+      "CyberLink PowerProducer 5.5": {
+        "version": "5.5.3.4118",
+        "publisher": "CyberLink Corp.",
+        "installdate": "20160429"
+      },
+      "CyberLink PowerDVD 10": {
+        "version": "10.0.5509.52",
+        "publisher": "CyberLink Corp.",
+        "installdate": "20160626"
+      },
+      "Corel TVX": {
+        "version": "2.3-B0.37",
+        "publisher": "Corel Corporation",
+        "installdate": "20160429"
+      },
+      "iSkysoft 究極動画音楽変換(Build 8.7.0.5)": {
+        "version": "8.7.0.5",
+        "publisher": "iSkysoft Software",
+        "installdate": "20160626"
+      },
+      "Lhaplus": {
+
+      },
+      "Mozilla Firefox 47.0.1 (x86 ja)": {
+        "version": "47.0.1",
+        "publisher": "Mozilla"
+      },
+      "Mozilla Thunderbird 45.2.0 (x86 ja)": {
+        "version": "45.2.0",
+        "publisher": "Mozilla"
+      },
+      "Mozilla Maintenance Service": {
+        "version": "47.0.1",
+        "publisher": "Mozilla"
+      },
+      "NVIDIA Stereoscopic 3D Driver": {
+        "version": "7.17.12.6514",
+        "publisher": "NVIDIA Corporation"
+      },
+      "Microsoft Office Personal 2010": {
+        "version": "14.0.7015.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160713"
+      },
+      "PictBear Version 2.04": {
+        "publisher": "Fenrir Inc.",
+        "installdate": "20160424"
+      },
+      "PuTTY 0.60 ごった煮版": {
+        "version": "0.60",
+        "publisher": "Yebisuya Hompo",
+        "installdate": "20160716"
+      },
+      "SafeZone Stable 1.48.2066.114": {
+        "version": "1.48.2066.114",
+        "publisher": "Avast Software"
+      },
+      "Tera Term 4.91": {
+        "installdate": "20160716"
+      },
+      "WinShot": {
+        "publisher": "WoodyBells software."
+      },
+      "Yahoo!ツールバー": {
+        "version": "8.0.0.3",
+        "publisher": "Yahoo! JAPAN."
+      },
+      "DiXiM Media Server 3 for mAgicTV": {
+        "version": "3.15",
+        "publisher": "DigiOn",
+        "installdate": "20160424"
+      },
+      "Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.30501": {
+        "version": "12.0.30501.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "Bonjour": {
+        "version": "1.0.106",
+        "publisher": "Apple Inc.",
+        "installdate": "20160429"
+      },
+      "Dropbox Update Helper": {
+        "version": "1.3.45.1",
+        "publisher": "Dropbox, Inc.",
+        "installdate": "20160705"
+      },
+      "筆まめ Ver.24 イラスト・個人法人電子電話帳": {
+        "version": "24.04.1210.0",
+        "publisher": "販売元：株式会社筆まめ 開発元：株式会社モーリン",
+        "installdate": "20160425"
+      },
+      "PLEXTALKProducer": {
+        "version": "1.1.5.0",
+        "publisher": "Shinano Kenshi Co.,Ltd.",
+        "installdate": "20160423"
+      },
+      "Java 8 Update 101": {
+        "version": "8.0.1010.13",
+        "publisher": "Oracle Corporation",
+        "installdate": "20160721"
+      },
+      "Java 8 Update 91": {
+        "version": "8.0.910.14",
+        "publisher": "Oracle Corporation",
+        "installdate": "20160423"
+      },
+      "CyberLink BD_3D Advisor 2.0": {
+        "version": "2.0.5913",
+        "publisher": "CyberLink Corp."
+      },
+      "Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729": {
+        "version": "9.0.30729",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160429"
+      },
+      "CyberLink Power2Go 7": {
+        "version": "7.0.0.3328",
+        "publisher": "CyberLink Corp.",
+        "installdate": "20160429"
+      },
+      "Vagrant": {
+        "version": "1.8.4",
+        "publisher": "HashiCorp",
+        "installdate": "20160727"
+      },
+      "Java Auto Updater": {
+        "version": "2.8.101.13",
+        "publisher": "Oracle Corporation",
+        "installdate": "20160721"
+      },
+      "I-O DATA mAgicTV GT": {
+        "version": "6.12",
+        "publisher": "I-O DATA DEVICE, INC.",
+        "installdate": "20160429"
+      },
+      "Google Update Helper": {
+        "version": "1.3.31.5",
+        "publisher": "Google Inc.",
+        "installdate": "20160729"
+      },
+      "LG ODD Auto ファームウェア アップデート": {
+        "version": "10.01.0712.01"
+      },
+      "Skype Click to Call": {
+        "version": "8.3.0.9150",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160529"
+      },
+      "ドキュメントトーカ PlusV2": {
+        "version": "2.0.11",
+        "publisher": "クリエートシステム開発株式会社",
+        "installdate": "20160424"
+      },
+      "Google Drive": {
+        "version": "1.30.2170.0459",
+        "publisher": "Google, Inc.",
+        "installdate": "20160702"
+      },
+      "Microsoft Visual C++ 2005 Redistributable": {
+        "version": "8.0.59193",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160626"
+      },
+      "ドキュメントトーカ辞書アップデート(x86)": {
+        "version": "1.0.0",
+        "publisher": "クリエートシステム開発株式会社",
+        "installdate": "20160424"
+      },
+      "筆まめ 人名外字(流麗行書体／堀内正楷書)": {
+        "version": "1.01.00",
+        "publisher": "株式会社筆まめ",
+        "installdate": "20160424"
+      },
+      "Xperia Companion": {
+        "version": "1.2.8.0",
+        "publisher": "Sony"
+      },
+      "PhishWall": {
+        "version": "3.7.5",
+        "publisher": "SecureBrain Corporation",
+        "installdate": "20160424"
+      },
+      "CyberLink Medi@Show 6": {
+        "version": "6.0.5019",
+        "publisher": "CyberLink Corp.",
+        "installdate": "20160429"
+      },
+      "Microsoft Office Excel MUI (Japanese) 2010": {
+        "version": "14.0.7015.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160427"
+      },
+      "Service Pack 2 for Microsoft Office 2010 (KB2687455) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2553347) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Excel 2010 (KB2956084) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Microsoft Office Outlook MUI (Japanese) 2010": {
+        "version": "14.0.7015.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160427"
+      },
+      "Security Update for Microsoft Word 2010 (KB2965313) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Outlook 2010 (KB3114883) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Microsoft Office Word MUI (Japanese) 2010": {
+        "version": "14.0.7015.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160427"
+      },
+      "Microsoft Office Proof (English) 2010": {
+        "version": "14.0.7015.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160427"
+      },
+      "Update for Microsoft Office 2010 (KB3085605) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Microsoft Office Proof (Japanese) 2010": {
+        "version": "14.0.7015.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160427"
+      },
+      "Update for Microsoft Office 2010 (KB2553347) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Office 2010 (KB2899516) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft OneNote 2010 (KB3114410) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Office 2010 (KB2553313) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Filter Pack 2.0 (KB2999508) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB3054886) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft InfoPath 2010 (KB3114414) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2589352) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft SharePoint Workspace 2010 (KB2760601) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Microsoft Office Proofing (Japanese) 2010": {
+        "version": "14.0.7015.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160426"
+      },
+      "Microsoft Office Shared MUI (Japanese) 2010": {
+        "version": "14.0.7015.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160427"
+      },
+      "Security Update for Microsoft Office 2010 (KB3085560) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2553140) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Office 2010 (KB2956076) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Office 2010 (KB2956063) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2589318) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Word 2010 (KB3115317) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2687275) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Office 2010 (KB2881071) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Definition Update for Microsoft Office 2010 (KB3115321) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Visio 2010 (KB3114872) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Excel 2010 (KB3115322) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2589375) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB3114989) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Office 2010 (KB2881029) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft InfoPath 2010 (KB2817369) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2794737) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Office 2010 (KB2880971) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Office 2010 (KB2850016) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Office 2010 (KB3054984) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Office 2010 (KB3085528) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB3054873) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2597087) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2589386) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2553388) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB3055047) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Office 2010 (KB3101520) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Outlook 2010 (KB2760779) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Outlook 2010 (KB3115246) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2883019) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Visio Viewer 2010 (KB2999465) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2881030) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2589298) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Outlook Social Connector 2010 (KB2553308) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB3114555) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB3114750) 32-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Microsoft SQL Server Browser": {
+        "version": "10.52.4000.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160426"
+      },
+      "PDFsam Basic": {
+        "version": "3.0.20.0",
+        "publisher": "Andrea Vacondio",
+        "installdate": "20160424"
+      },
+      "Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.17": {
+        "version": "9.0.30729",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160429"
+      },
+      "Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161": {
+        "version": "9.0.30729.6161",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160429"
+      },
+      "Evernote v. 6.1.2": {
+        "version": "6.1.2.2292",
+        "publisher": "Evernote Corp.",
+        "installdate": "20160604"
+      },
+      "ドキュメントトーカ 日本語音声合成エンジン for Windows(x86)": {
+        "version": "1.2.12",
+        "publisher": "クリエートシステム開発株式会社",
+        "installdate": "20160424"
+      },
+      "Adobe Refresh Manager": {
+        "version": "1.8.0",
+        "publisher": "Adobe Systems Incorporated",
+        "installdate": "20160714"
+      },
+      "Adobe Acrobat Reader DC - Japanese": {
+        "version": "15.017.20050",
+        "publisher": "Adobe Systems Incorporated",
+        "installdate": "20160714"
+      },
+      "Jw_cad": {
+        "version": "8.01.2",
+        "publisher": "Jiro Shimizu & Yoshifumi Tanaka",
+        "installdate": "20160424"
+      },
+      "Sentinel Protection Installer 7.6.7": {
+        "version": "7.6.7",
+        "publisher": "SafeNet, Inc.",
+        "installdate": "20160424"
+      },
+      "CyberLink LabelPrint 2.5": {
+        "version": "2.5.5311",
+        "publisher": "CyberLink Corp.",
+        "installdate": "20160429"
+      },
+      "HL-3140CW": {
+        "version": "1.0.1.0",
+        "publisher": "Brother Industries, Ltd.",
+        "installdate": "20160423"
+      },
+      "筆まめ Ver.24": {
+        "version": "24.06.1212.0",
+        "publisher": "販売元：株式会社筆まめ 開発元：株式会社モーリン",
+        "installdate": "20160423"
+      },
+      "KOKUYO 合わせ名人３": {
+        "version": "2.00.0506",
+        "publisher": "コクヨS&T株式会社",
+        "installdate": "20160725"
+      },
+      "CyberLink MediaEspresso 6.5": {
+        "version": "6.5.3906_46160",
+        "publisher": "CyberLink Corp.",
+        "installdate": "20160429"
+      },
+      "Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219": {
+        "version": "10.0.40219",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160426"
+      },
+      "Skype(TM) 7.26": {
+        "version": "7.26.101",
+        "publisher": "Skype Technologies S.A.",
+        "installdate": "20160728"
+      }
+    },
+    "root_group": "Administrators",
+    "time": {
+      "timezone": "���� (�W����)"
+    },
+    "recipes": [
+      "windows",
+      "windows::default"
+    ],
+    "expanded_run_list": [
+      "windows::default"
+    ],
+    "roles": [
+
+    ],
+    "cookbooks": {
+      "windows": {
+        "version": "1.44.1"
+      },
+      "chef_handler": {
+        "version": "1.4.0"
+      }
+    }
+  },
+  "run_list": [
+    "recipe[windows]"
+  ]
+}
